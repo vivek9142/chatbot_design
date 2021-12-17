@@ -10,7 +10,7 @@ const QuestionList = () =>  {
   ] 
 
   const renderedList = list.map((item,i)=> {
-    const time = 7;
+    const time = 11;
     return(
           <div className="card__body--contents--list-item" style={{'animationDuration':`${time+i}s`}} key={i}>
             <div className="card__body--contents--list-item--icon"></div>
