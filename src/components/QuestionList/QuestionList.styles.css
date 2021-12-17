@@ -1,0 +1,48 @@
+.card__body--contents--list-item {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    animation-name: listitem_fade_in;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    }
+    
+  
+  @keyframes listitem_fade_in {
+    0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0.0;}
+    62.5% {opacity: 0.25;} 
+    75%  {opacity: 0.5;}
+    87.5%{opacity: 0.75;}
+    100% {opacity: 1;}
+  }
+  
+  .card__body--contents--list-item--text {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    display: flex;
+    gap: .4rem;
+  }
+  svg.card__body--contents--list-item--icon {
+    position: relative;
+    top: 0.2rem;
+  }
+
+  @media screen and (max-width:400px){
+    .card__body--contents--list-item {
+      margin: 0.5rem 0;
+      padding: 0.3rem;
+  }
+  svg.card__body--contents--list-item--icon {
+    width: 0.7rem;
+  }
+  .card__body--contents--list-item--text-container p {
+    font-size: .7rem;
+  }
+}

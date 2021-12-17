@@ -1,0 +1,14 @@
+.card {
+    text-align: start;
+    color: #ffffff;
+    position: relative;
+    max-width: 416px;
+    background: #ffffff;
+    box-shadow: 0px 0px 50px rgb(0 0 0 / 8%);
+    border-radius: 18px;
+  }
+  @media screen and (max-width:400px){
+    .card{
+      width: auto;
+    }
+  }
